@@ -1,0 +1,73 @@
+.container {
+    padding: 40px;
+    margin-top: 10px
+}
+
+.emblem {
+
+}
+
+.name {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: -90px;
+    font-size: 25px;
+    font-family: Michroma;
+
+}
+
+.fend {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: auto;
+    font-size: 15px;
+    font-family: Michroma;
+  }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #2d3c49;
+    margin: 1em auto;
+    padding: auto;
+}
+
+.matrix {
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: fill;
+}
+
+.imageContainer {
+      max-width: 100%;
+    display: inline-flex;
+    /*flex-direction: row;
+    align-content: flex-start;*/
+
+}
+
+.yoda {
+  display: block;
+  margin: auto;
+  max-width: 33%;
+
+}
+
+.trooper {
+    /*max-width: 33%;*/
+    display: block;
+    margin: auto;
+
+
+}
+
+.vader {
+
+    /*max-width: 33%;*/
+    display: block;
+    margin: auto;
+
+
+}
