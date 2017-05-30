@@ -4,9 +4,13 @@
 }
 
 .emblem {
-
+    opacity: 0.5;
+    padding-bottom: 10px;
 }
 
+.content {
+    background-color: #7C7878;
+}
 .name {
     text-align: right;
     text-transform: uppercase;
