@@ -1,6 +1,7 @@
 .container {
     padding: 40px;
-    margin-top: 10px
+    padding-left: 40px;
+    margin-top: 10px;
 }
 
 .emblem {
@@ -11,6 +12,7 @@
 .content {
     background-color: #7C7878;
 }
+
 .name {
     text-align: right;
     text-transform: uppercase;
@@ -45,23 +47,26 @@ hr {
 }
 
 .imageContainer {
-      max-width: 100%;
+    max-width: 100%;
     display: inline-flex;
-    /*flex-direction: row;
-    align-content: flex-start;*/
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: auto;
+
+
 
 }
 
 .yoda {
   display: block;
   margin: auto;
-  /*max-width: 33%;*/
+  max-width: 33%;
 
 
 }
 
 .trooper {
-    /*max-width: 33%;*/
+    max-width: 33%;
     display: block;
     margin: auto;
 
@@ -70,10 +75,10 @@ hr {
 
 .vader {
 
-    /*max-width: 33%;*/
+    max-width: 33%;
     display: block;
     margin: auto;
-    
+
 
 
 }
