@@ -1,14 +1,67 @@
+
+
 .whole {
-    padding: 40px;
-    padding-left: 40px;
-    margin-top: 10px;
+    margin-top: 50px;
     background-color: #7C7878;
+}
+
+.emblem {
+    opacity: 3.0;
+    width: 250px;
+    /*border-radius: 50%;*/
+}
+
+.owner {
+    /*margin-top: 500px;*/
+
+}
+
+.name {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Michroma;
+
+}
+
+.fend {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Michroma;
+  }
+
+hr {
+    border-color: #3a3d42;
+    border-top-width: medium;
+}
+
+.matrix {
+    width: 100%;
+}
+
+.imagecontainer {
+    text-align: center;
+    /*font-size: 3px;*/
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+    .emblem {
+      width: 50%;
+    }
+
+
+/*.title {
+    text-align: center;
 }
 
 .emblem {
     opacity: 0.5;
     padding-bottom: 10px;
-    width: 120px;
+    width: 100px;
 }
 
 .name {
@@ -28,33 +81,27 @@
     font-family: Michroma;
   }
 
-hr {
+.hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 4px solid #2d3c49;
     margin: 1em auto;
-}
+}*/
 
-.matrix {
+/*.matrix {
     margin: auto;
     width: 100%;
     display: block;
-    object-fit: fill;
+    object-fit: fill;*/
 }
 
 /*.imagecontainer {
     width: 100%;
-    display: inline-flex;
     margin: auto;
 }*/
 
-.title {
-    text-align: center;
-}
-
-.yoda {
-    /*display: block;*/
+/*.yoda {
     margin: auto;
     max-width: 33%;
     text-align: center;
@@ -63,7 +110,6 @@ hr {
 
 .trooper {
     max-width: 33%;
-    /*display: block;*/
     margin: auto;
     padding-right: 5%;
     padding-left: 5%;
@@ -73,7 +119,6 @@ hr {
 
 .vader {
     max-width: 33%;
-    /*display: block;*/
     margin: auto;
     text-align: center;
 
@@ -83,4 +128,4 @@ hr {
     .emblem {
       width: 30%;
     }
-}
+}*/
