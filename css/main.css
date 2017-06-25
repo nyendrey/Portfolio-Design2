@@ -1,16 +1,14 @@
-.container {
+.whole {
     padding: 40px;
     padding-left: 40px;
     margin-top: 10px;
+    background-color: #7C7878;
 }
 
 .emblem {
     opacity: 0.5;
     padding-bottom: 10px;
-}
-
-.content {
-    background-color: #7C7878;
+    width: 120px;
 }
 
 .name {
@@ -36,49 +34,53 @@ hr {
     border: 0;
     border-top: 4px solid #2d3c49;
     margin: 1em auto;
-    padding: auto;
 }
 
 .matrix {
     margin: auto;
-    max-width: 100%;
+    width: 100%;
     display: block;
     object-fit: fill;
 }
 
-.imageContainer {
-    max-width: 100%;
+/*.imagecontainer {
+    width: 100%;
     display: inline-flex;
-    flex-wrap: nowrap;
     margin: auto;
-    padding: auto;
+}*/
 
-
-
+.title {
+    text-align: center;
 }
 
 .yoda {
-  display: block;
-  margin: auto;
-  max-width: 33%;
-
+    /*display: block;*/
+    margin: auto;
+    max-width: 33%;
+    text-align: center;
 
 }
 
 .trooper {
     max-width: 33%;
-    display: block;
+    /*display: block;*/
     margin: auto;
-
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
 
 }
 
 .vader {
-
     max-width: 33%;
-    display: block;
+    /*display: block;*/
     margin: auto;
+    text-align: center;
 
+}
 
-
+@media screen and (max-width: 360px) {
+    .emblem {
+      width: 30%;
+    }
 }
