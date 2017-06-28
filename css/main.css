@@ -1,131 +1,43 @@
-
-
 .whole {
-    margin-top: 50px;
-    background-color: #7C7878;
+    background-color: #e3e5e8;
 }
-
 .emblem {
-    opacity: 3.0;
-    width: 250px;
-    /*border-radius: 50%;*/
+    opacity: 2.0;
+    width: 230px;
+    padding-top: 20px;
 }
-
-.owner {
-    /*margin-top: 500px;*/
-
-}
-
 .name {
     text-align: right;
     text-transform: uppercase;
     font-size: 25px;
     font-family: Michroma;
-
+    padding-top: 50px;
 }
-
 .fend {
     text-align: right;
     text-transform: uppercase;
     font-size: 15px;
     font-family: Michroma;
-  }
-
+}
 hr {
     border-color: #3a3d42;
     border-top-width: medium;
 }
-
 .matrix {
     width: 100%;
 }
-
 .imagecontainer {
     text-align: center;
-    /*font-size: 3px;*/
-}
-
-
-
-
-@media screen and (max-width: 360px) {
-    .emblem {
-      width: 50%;
-    }
-
-
-/*.title {
-    text-align: center;
-}
-
-.emblem {
-    opacity: 0.5;
-    padding-bottom: 10px;
-    width: 100px;
-}
-
-.name {
-    text-align: right;
-    text-transform: uppercase;
-    margin-top: -90px;
-    font-size: 25px;
-    font-family: Michroma;
-
-}
-
-.fend {
-    text-align: right;
-    text-transform: uppercase;
-    margin-top: auto;
-    font-size: 15px;
-    font-family: Michroma;
-  }
-
-.hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 4px solid #2d3c49;
-    margin: 1em auto;
-}*/
-
-/*.matrix {
-    margin: auto;
-    width: 100%;
-    display: block;
-    object-fit: fill;*/
-}
-
-/*.imagecontainer {
-    width: 100%;
-    margin: auto;
-}*/
-
-/*.yoda {
-    margin: auto;
-    max-width: 33%;
-    text-align: center;
-
-}
-
-.trooper {
-    max-width: 33%;
-    margin: auto;
-    padding-right: 5%;
-    padding-left: 5%;
-    text-align: center;
-
-}
-
-.vader {
-    max-width: 33%;
-    margin: auto;
-    text-align: center;
-
 }
 
 @media screen and (max-width: 360px) {
     .emblem {
-      width: 30%;
-    }
-}*/
+        width: 80%;
+        padding-left: 30px;
+}
+    .name {
+        padding-right: 60px;
+}
+    .fend {
+        padding-right: 90px;
+}
